@@ -18,7 +18,7 @@ O sistema lê os sensores, processa os dados e cria uma rede Wi-Fi local. Após 
 - 2 baterias LiPo/Li-ion na configuração 2S1P, montadas e supervisionadas pelo professor;
 - cabos jumper e estrutura do CubEdu;
 - cabo USB de dados compatível com a NodeMCU;
-- computador com Arduino IDE 2.
+- computador com Arduino IDE.
 
 > **Importante:** alunos não devem montar, carregar, desmontar ou alterar o conjunto de baterias sem supervisão.
 
