@@ -1,6 +1,8 @@
-# CubEdu
+# CubEdu  V0.1
 
-Firmware desenvolvido para um protótipo educacional de CubeSat, responsável pela aquisição de dados dos sensores, processamento pela OBC e disponibilização da telemetria por meio de uma rede Wi-Fi local.
+<img width="766" height="843" alt="image" src="https://github.com/user-attachments/assets/e24bd8ec-df1a-4e98-8360-2cefff3b7fd3" />
+
+Protótipo educacional de CubeSat, responsável pela aquisição de dados dos sensores, processamento pela OBC e disponibilização da telemetria por meio de uma rede Wi-Fi local.
 
 O projeto foi desenvolvido como parte do Trabalho de Conclusão de Curso do Curso de Engenharia Aeroespacial da Universidade de Brasília, Faculdade de Ciências e Tecnologias em Engenharia pelo Aluno **Gabriel Santos Evangelista**, Orientado pelo **Prof. Dr. Manuel Nascimento Dias Barcelos Junior**. .
 
