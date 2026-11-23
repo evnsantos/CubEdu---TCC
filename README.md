@@ -1,6 +1,9 @@
 # CubEdu  V0.1
 
-<img width="766" height="843" alt="image" src="https://github.com/user-attachments/assets/e24bd8ec-df1a-4e98-8360-2cefff3b7fd3" />
+<p align="center">
+  <img width="383" height="421" alt="CubEdu V0.1"
+       src="https://github.com/user-attachments/assets/e24bd8ec-df1a-4e98-8360-2cefff3b7fd3" />
+</p>
 
 Protótipo educacional de CubeSat, responsável pela aquisição de dados dos sensores, processamento pela OBC e disponibilização da telemetria por meio de uma rede Wi-Fi local.
 
