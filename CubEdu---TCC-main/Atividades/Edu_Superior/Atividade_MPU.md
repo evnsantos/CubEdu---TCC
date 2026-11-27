@@ -450,6 +450,14 @@ Durante a primeira aula foram realizadas a integração do sensor, a aquisição
 A comparação entre a trajetória real e a trajetória estimada permitiu observar os efeitos do ruído, do bias, dos erros de orientação e da deriva dos sensores inerciais. Dessa forma, a atividade integrou conceitos de programação, álgebra linear, processamento de sinais e navegação inercial por meio de uma aplicação prática com a plataforma CubEdu.
 
 ---
+** Glosário
+
+       | cosψ·cosθ    cosψ·sinθ·sinφ - sinψ·cosφ    cosψ·sinθ·cosφ + sinψ·sinφ |
+C   =  |                                                                             |
+       | sinψ·cosθ    sinψ·sinθ·sinφ + cosψ·cosφ    sinψ·sinθ·cosφ - cosψ·sinφ |
+       |                                                                             |
+       |   -sinθ                 cosθ·sinφ                    cosθ·cosφ         |
+---
 
 ## Referências
 
