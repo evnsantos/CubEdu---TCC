@@ -179,7 +179,7 @@ Apesar do nome, essa biblioteca também oferece suporte ao sensor BMP180 utiliza
 
 ## 8. Abertura do firmware
 
-1. Faça o download ou clone o repositório do CubEdu.
+1. Faça o download do [firmware](https://github.com/evnsantos/CubEdu---TCC/tree/main/CubEdu---TCC-main/Codigos/Firmware) ou clone o repositório do CubEdu.
 2. Localize a pasta do firmware final.
 3. Abra o arquivo com extensão `.ino`.
 4. Verifique se o nome da pasta é igual ao nome do arquivo principal.
@@ -301,7 +301,7 @@ http://192.168.4.1/api/telemetry
 | BH1750 | D2 e D1 | I²C |
 | MPU6050 | D2 e D1 | I²C |
 | BMP180 | D2 e D1 | I²C |
-| LM2596 | VIN | Alimentação |
+| MP1584 | VIN | Alimentação |
 
 ### Barramento I²C
 
@@ -327,9 +327,9 @@ http://192.168.4.1/api/telemetry
 
 Durante a programação, a NodeMCU pode ser alimentada pela porta micro-USB.
 
-Na configuração final, o sistema utiliza duas baterias LiPo em configuração 2S1P e um conversor LM2596 com saída regulada conectada ao pino VIN.
+Na configuração final, o sistema utiliza duas baterias LiPo em configuração 2S1P e um conversor MP1584 com saída regulada conectada ao pino VIN.
 
-Antes de conectar o LM2596:
+Antes de conectar o MP1584:
 
 1. ligue o conversor às baterias;
 2. meça a saída com um multímetro;
