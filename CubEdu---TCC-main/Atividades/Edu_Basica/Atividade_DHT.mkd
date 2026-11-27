@@ -13,6 +13,12 @@ Utilizando o sensor **DHT11**, os alunos deverão coletar dados de temperatura e
 
 ---
 
+## Grupos
+
+- Recomenda-se que a atividade seja realizada com no máximo 4 Estudantes
+
+---
+
 ## Materiais Necessários
 
 - Plataforma CubEdu
