@@ -12,6 +12,12 @@ Utilizando o sensor **MPU6050**, os alunos deverão coletar dados de aceleraçã
 
 ---
 
+## Grupos
+
+- Recomenda-se que a atividade seja realizada com no máximo 4 Estudantes
+
+---
+
 ## Duração
 
 - 2 horas
