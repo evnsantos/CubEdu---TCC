@@ -452,11 +452,13 @@ A comparação entre a trajetória real e a trajetória estimada permitiu observ
 ---
 ** Glosário
 
+C =
+
        | cosψ·cosθ    cosψ·sinθ·sinφ - sinψ·cosφ    cosψ·sinθ·cosφ + sinψ·sinφ |
-C   =  |                                                                             |
+       |                                                                       |
        | sinψ·cosθ    sinψ·sinθ·sinφ + cosψ·cosφ    sinψ·sinθ·cosφ - cosψ·sinφ |
-       |                                                                             |
-       |   -sinθ                 cosθ·sinφ                    cosθ·cosφ         |
+       |                                                                       |
+       |   -sinθ                 cosθ·sinφ                    cosθ·cosφ        |
 ---
 
 ## Referências
