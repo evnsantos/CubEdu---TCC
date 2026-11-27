@@ -72,8 +72,8 @@ A placa funciona em modo Access Point e cria uma rede local. Um computador ou di
 
 A alimentação do protótipo utiliza:
 
-- duas baterias LiPo em configuração 2S1P;
-- conversor DC-DC LM2596;
+- duas baterias Li-ion em configuração 2S1P;
+- Regulador de tensão MP1584;
 - saída regulada conectada ao pino VIN da NodeMCU.
 
 O firmware apresenta a configuração do EPS no dashboard, mas não realiza medição digital da tensão ou da corrente das baterias.
@@ -88,8 +88,8 @@ O firmware apresenta a configuração do EPS no dashboard, mas não realiza medi
 | Payload | BH1750 | Iluminância |
 | Payload | BMP180 | Temperatura, pressão e altitude |
 | ADS | MPU6050 | Aceleração, velocidade angular e atitude |
-| EPS | LM2596 | Regulação da tensão de alimentação |
-| EPS | Baterias LiPo 2S1P | Armazenamento de energia |
+| EPS | MP1584 | Regulação da tensão de alimentação |
+| EPS | Baterias Li-ion 2S1P | Armazenamento de energia |
 
 ## Conexões
 
