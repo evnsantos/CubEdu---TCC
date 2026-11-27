@@ -13,7 +13,7 @@ O firmware do repositório realiza leituras a cada 5 segundos, apresenta o estad
 | OBC e TT&C | NodeMCU V3 ESP8266MOD, Wi-Fi em modo Access Point e servidor HTTP |
 | Payload | DHT11, GUVA-S12SD, BH1750 e BMP180 |
 | ADS | MPU6050 |
-| EPS | Duas baterias em 2S1P e conversor LM2596 |
+| EPS | Duas baterias em 2S1P e conversor MP1584 |
 
 ### Pinagem de referência
 
@@ -74,15 +74,15 @@ Confira os `#include` da versão atual do firmware antes da aula. A versão desc
 
 ### 5.1 Antes de conectar a OBC
 
-1. Desconecte a saída do LM2596 da NodeMCU.
+1. Desconecte a saída do MP1584 da NodeMCU.
 2. Energize o conversor com o conjunto de baterias.
 3. Meça a saída com multímetro.
-4. Ajuste o LM2596 para a tensão definida no projeto antes de conectá-lo ao pino VIN. Para uma NodeMCU alimentada pelo VIN, adote o valor validado na placa específica, normalmente 5,0 V no protótipo, sem exceder os limites do fabricante da versão utilizada.
+4. Ajuste o MP1584 para a tensão definida no projeto antes de conectá-lo ao pino VIN. Para uma NodeMCU alimentada pelo VIN, adote o valor validado na placa específica, normalmente 5,0 V no protótipo, sem exceder os limites do fabricante da versão utilizada.
 5. Desenergize o conversor.
 6. Confira novamente a polaridade.
 7. Somente então conecte a saída regulada ao VIN e ao GND.
 
-Não permita que estudantes ajustem o LM2596 energizado e conectado à OBC.
+Não permita que estudantes ajustem o MP1584 energizado e conectado à OBC.
 
 ### 5.2 Uso simultâneo de USB e alimentação externa
 
@@ -116,8 +116,8 @@ Use esta sequência antes de energizar:
 - [ ] SDA em D2 / GPIO4;
 - [ ] SCL em D1 / GPIO5;
 - [ ] tensão de alimentação compatível com cada módulo;
-- [ ] polaridade do LM2596 confirmada;
-- [ ] saída do LM2596 medida;
+- [ ] polaridade do MP1584 confirmada;
+- [ ] saída do MP1584 medida;
 - [ ] ausência de curto entre alimentação e GND;
 - [ ] jumpers firmes e sem partes condutoras expostas;
 - [ ] bateria desconectada durante a programação USB.
@@ -134,7 +134,7 @@ Para reduzir falhas e facilitar o diagnóstico, conduza a integração em blocos
 4. **OBC + sensores:** integre BH1750, BMP180 e MPU6050 no mesmo barramento.
 5. **Entradas dedicadas:** adicione DHT11 e GUVA-S12SD.
 6. **TT&C:** valide a rede Wi-Fi, o endereço IP e o acesso ao painel.
-7. **EPS:** conecte o LM2596 previamente ajustado e realize o teste sem USB.
+7. **EPS:** conecte o MP1584 previamente ajustado e realize o teste sem USB.
 8. **Sistema completo:** execute aquisição, dashboard e registro de falhas.
 9. **Autonomia:** realize somente após validações funcionais e inspeção das baterias.
 
@@ -209,7 +209,7 @@ Para ensaio de autonomia, use o requisito definido no TCC e registre horário in
 ### Reinicializações ou mensagens de watchdog
 
 - verificar queda de tensão na alimentação;
-- medir a saída do LM2596 durante transmissão Wi-Fi;
+- medir a saída do MP1584 durante transmissão Wi-Fi;
 - procurar curtos intermitentes;
 - testar sem os sensores;
 - registrar a causa de reset exibida no terminal;
@@ -231,7 +231,7 @@ Para cada kit, mantenha uma ficha com:
 - versão do hardware;
 - hash ou tag do firmware;
 - versões do core e bibliotecas;
-- tensão ajustada do LM2596;
+- tensão ajustada do MP1584;
 - identificação e capacidade nominal das baterias;
 - data da inspeção;
 - falhas observadas;
@@ -268,7 +268,7 @@ Oriente os alunos a não modificar simultaneamente hardware e firmware. A cada t
 - [ ] firmware compilado e testado;
 - [ ] bibliotecas e pacote ESP8266 disponíveis;
 - [ ] baterias inspecionadas;
-- [ ] LM2596 ajustado e lacrado contra alteração acidental;
+- [ ] MP1584 ajustado e lacrado contra alteração acidental;
 - [ ] cabo de dados validado;
 - [ ] kit reserva disponível;
 - [ ] procedimento de emergência conhecido.
