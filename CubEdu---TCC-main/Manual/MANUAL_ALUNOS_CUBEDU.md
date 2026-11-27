@@ -14,8 +14,8 @@ O sistema lê os sensores, processa os dados e cria uma rede Wi-Fi local. Após 
 - 1 sensor BH1750;
 - 1 sensor BMP180;
 - 1 sensor MPU6050;
-- 1 conversor DC-DC LM2596, previamente ajustado pelo professor;
-- 2 baterias LiPo/Li-ion na configuração 2S1P, montadas e supervisionadas pelo professor;
+- 1 Regulador de tensão MP1584, previamente ajustado pelo professor;
+- 2 baterias Li-ion na configuração 2S1P, montadas e supervisionadas pelo professor;
 - cabos jumper e estrutura do CubEdu;
 - cabo USB de dados compatível com a NodeMCU;
 - computador com Arduino IDE.
@@ -29,7 +29,7 @@ O sistema lê os sensores, processa os dados e cria uma rede Wi-Fi local. Após 
 3. Não conecte nem retire sensores com o CubEdu energizado.
 4. Confira três vezes os pinos `VCC`, `GND`, `SDA` e `SCL`.
 5. Nunca una diretamente `VCC` e `GND`.
-6. Não altere o parafuso de ajuste do LM2596.
+6. Não altere o parafuso de ajuste do MP1584.
 7. Durante a programação por USB, mantenha a alimentação pelas baterias desconectada, salvo autorização expressa do professor.
 8. Se houver aquecimento, cheiro, fumaça ou comportamento incomum, desconecte a alimentação e avise o professor.
 
@@ -74,7 +74,7 @@ Faça as ligações apenas com o sistema desligado.
 | BH1750 | SDA em D2 e SCL em D1 | I²C |
 | BMP180 | SDA em D2 e SCL em D1 | I²C |
 | MPU6050 | SDA em D2 e SCL em D1 | I²C |
-| LM2596 | VIN, somente após ajuste pelo professor | Alimentação |
+| MP1584 | VIN, somente após ajuste pelo professor | Alimentação |
 
 ### Barramento I²C
 
